@@ -1,7 +1,7 @@
 # it-akademy
 just a .txt of my formation, things usefull
 
-Terminal commands :
+#Terminal commands :
 -ls : voir ce qu'il y a dans le dossier
 
 -cd (chemin) : aller vers
