@@ -1,2 +1,2 @@
 # it-akademy
-just some .xt of my formation, things usefull
+just a .txt of my formation, things usefull
