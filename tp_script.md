@@ -57,7 +57,7 @@ read nomDuDossier
 #Gestion de l'erreur dans le cas ou le nom du dossier a un ou des espaces
     while [[ "$nomDuDossier" != "${nomDuDossier/ /}" ]]
     do
-        if [ $nbDossier -gt 1 ]; then
+        if [ $nbDossier -gt 1 ]; then 
           let "nbDossier--"
           echo  "Votre nom de dossier ne doit pas contenir d'espaces. Il vous reste {$nbDossier} chance."
           read nomDuDossier
