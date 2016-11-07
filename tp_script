@@ -1,0 +1,13 @@
+créer un script qui permette de créer une nouvelle vagrant de la configurer et de la lancer.
+
+#Contenu attendu
+-Script avec variables
+
+- choix de differentes options via input
+
+#Aller plus loin
+- Plus de variables
+
+-mise en forme élégante
+
+-gestion des erreurs
