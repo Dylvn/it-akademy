@@ -6,14 +6,6 @@ créer un script qui permette de créer une nouvelle vagrant de la configurer et
 - choix de differentes options via input
 
 #Aller plus loin
-- Plus de variables
-
--mise en forme élégante
-
--gestion des erreurs
-
-#SCRIPT FOR NOW
-
 #!/bin/bash
 
 #Demande a l'utilisateur comment appeler le dossier
@@ -29,8 +21,9 @@ echo "Entrez le nom de votre fichier synchro local"
 read fichierLocal
 
 #Demande le nom du dossier synchro de la machine virtuelle
-echo "Entrez le nom de votre fichier synchro local"
+echo "Entrez le nom de votre fichier synchro distant"
 read fichierDistant
+fichierLocal="/var/www/html/${fichierDistant}"
 
 mkdir $nomDuDossier
 cd $nomDuDossier
