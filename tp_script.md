@@ -131,3 +131,15 @@ sed -i "s/# config.vm.network \"private_network\", ip: \"192.168.33.10\"/config.
 mkdir $fichierLocal
 vagrant up
 ```
+
+#README
+
+Script pour lancer un serveur Vagrant, avec plusieurs Options.
+
+-gt (GreaterThan) //Plus grand que
+
+-le (LowerEqual) // Plus petit ou égal
+
+Boucle utilisé : If/While
+
+Pas réussis a me servir des fonctions.
