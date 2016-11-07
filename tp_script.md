@@ -40,7 +40,7 @@ vagrant up
 
 
 #sript
-
+```bash
 #!/bin/bash
 
 #Demande a l'utilisateur comment appeler le dossier
@@ -72,3 +72,4 @@ sed -i-e "s/# config.vm.network \"private_network\", ip: \"192.168.33.10\"/confi
 sed -i-e "s/# config.vm.synced_folder \"../data\", \"/vagrant_data\"/config.vm.synced_folder \"$fichierLocal\", \"/var/www/html/$fichierDistant\"/g" Vagrantfile
 mkdir $fichierLocal
 vagrant up
+```
