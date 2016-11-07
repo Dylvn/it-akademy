@@ -17,3 +17,7 @@ Terminal commands :
 -mv : déplacer un fichier
 
 -nano: ouvrir fichier avec nano
+
+creer un VM vagrant
+
+vagrant init / mkdir data / modif vagrantFile / vagrant up
