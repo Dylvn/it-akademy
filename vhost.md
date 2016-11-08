@@ -2,7 +2,7 @@
 
 * créer un nouveau fichier .conf (sudo nano all.conf )
 
-* virtual host docs ubuntu (copier coller all) ou ça
+* mettre dans le fichier créer -> virtual host docs ubuntu (copier coller all) ou ça :
 
 ```
 <VirtualHost *:80>
